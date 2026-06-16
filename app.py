@@ -1,6 +1,6 @@
 import streamlit as st
-from parser.nastran_parser import parse_f06
-from observer.trend_analysis import analyse_trends
+from Parser.nastran_parser import parse_f06
+from Observer.trend_analysis import analyse_trends
 from agent.diagnose import diagnose
 
 st.info("💡 This tool analyses solver logs and suggests root causes and fixes automatically.")
